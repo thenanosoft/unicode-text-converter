@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './styles';
 import { transform, getFonts } from 'convert-unicode-fonts';
 
@@ -7,6 +7,11 @@ const fonts = getFonts();
 const UnicodeConverter = () => {
   const [input, setInput] = useState('');
   const [toastMessage, setToastMessage] = useState('');
+
+  useEffect(() => {
+    const currentYear = new Date().getFullYear();
+    setInput(`FARHAN ELLAHI ${currentYear} ❤`);
+  }, []);
 
   const handleCopy = (text) => {
     navigator.clipboard.writeText(text);
