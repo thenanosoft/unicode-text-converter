@@ -1,0 +1,30 @@
+
+const styles = [
+    { title: 'Bold', font: 'bold' },
+    { title: 'Italic', font: 'italic' },
+    { title: 'Bold Italic', font: 'boldItalic' },
+    { title: 'Script Italic', font: 'scriptItalic' },
+    { title: 'Script Bold', font: 'scriptBold' },
+    { title: 'Fraktur', font: 'fraktur' },
+    { title: 'Bold Fraktur', font: 'boldFraktur' },
+    { title: 'Double Struck', font: 'doubleStruck' },
+    { title: 'Sans Serif', font: 'sansSerif' },
+    { title: 'Sans Serif Bold', font: 'sansSerifBold' },
+    { title: 'Sans Serif Italic', font: 'sansSerifItalic' },
+    { title: 'Sans Serif Bold Italic', font: 'sansSerifBoldItalic' },
+    { title: 'Monospace', font: 'monospace' },
+    { title: 'Super', font: 'super' },
+    { title: 'Parenthesized', font: 'parenthesized' },
+    { title: 'Circled', font: 'circled' },
+    { title: 'Squared Capital', font: 'squaredCapital' },
+    { title: 'Negative Circled Capital', font: 'negativeCircledCapital' },
+    { title: 'Negative Squared Capital', font: 'negativeSquaredCapital' },
+    { title: 'Regional Indicator Symbol', font: 'regionalIndicatorSymbol' },
+    { title: 'Full Width', font: 'fullWidth' },
+    { title: 'Myanmar', font: 'myanmar' },
+    { title: 'Cherokee', font: 'cherokee' },
+    { title: 'Roman Numerals', font: 'romanNumerals' },
+    { title: 'Roman Numerals Small', font: 'romanNumeralsSmall' },
+  ];
+
+  export default styles;
